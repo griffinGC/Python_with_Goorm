@@ -16,4 +16,6 @@ class MyRange:
 			raise StopIteration()
 
 for i in MyRange(0, 5):
-	print(i) #파이참에서는 실행됨!
+	print(i) #한글주석가능?
+	
+print("한글출력")

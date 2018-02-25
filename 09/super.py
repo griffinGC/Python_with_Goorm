@@ -3,7 +3,7 @@ class A:
 		print("A.__init()__")
 		self.message = "Hello"
 		
-class B(A):
+class B (A):
 	def __init__(self): 
 		print("B.__init__()")
 		
@@ -11,4 +11,5 @@ class B(A):
 		print("self.message is " + self.message)
 		
 #if __name__ == "__main__":
+#한글화
 b = B()
